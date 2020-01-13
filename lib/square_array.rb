@@ -1,3 +1,4 @@
-def square_array(array)
-  # your code here
+  def square!
+    self.map! {|num| num ** 2}
+  end
 end
