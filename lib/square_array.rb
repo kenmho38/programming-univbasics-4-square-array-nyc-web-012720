@@ -1,8 +1,11 @@
 def square_array(array)
   new_array = []
-  new_array.push(a*a)}
-  return new_array
+  counter = 0 
+  while array[counter] do
+    new_array << array[counter] ** 2 
+    counter += 1
 end
 
-array = [1, 2, 3]
-square_array(array)
+ return new_array
+ 
+ end
